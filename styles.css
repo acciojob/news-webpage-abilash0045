@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-h1{
+header{
     background-color: #011e29;
     color: white;
     text-align: center;
@@ -35,4 +35,13 @@ h2{
 }
 p{
     padding: 10px;
+}
+.pictorial-news-section{
+	align-items:center;
+}
+.latest-news-section{
+	align-items:center;
+}
+.main-section{
+	align-items:center;
 }
