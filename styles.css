@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+h1{
+    background-color: #011e29;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color:  #f5f5f5;
+}
+.container{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+}
+.container > div{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+img{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}
+.container > div{
+    align-self: flex-start;
+}
+p{
+    padding: 10px;
+}
